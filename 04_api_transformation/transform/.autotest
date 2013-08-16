@@ -1,0 +1,12 @@
+require 'autotest/restart'
+require 'autotest/growl' # Send up notifications through growl
+require 'autotest/fsevent' # Use OS X filesystem change notifications instead of polling
+
+Autotest.add_hook :initialize do |at|
+  exceptions = %w{.git .svn .hg .DS_Store coverage db log tmp vendor
+    ._* .sqlite3 coverage coverage.info}
+
+  exceptions.each do |exception|
+    at.add_exception(exception)
+  end
+end

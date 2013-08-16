@@ -1,0 +1,20 @@
+source "https://rubygems.org"
+
+gem 'faraday'
+gem 'nokogiri'
+gem 'json'
+gem 'yajl-ruby', :require => 'yajl'
+gem 'activemodel'
+
+group :development, :test do
+  gem 'debugger', :require => false
+  gem 'mocha', :require => false
+  gem 'rspec'
+
+  gem 'autotest-standalone'
+  gem 'autotest-growl'
+  gem 'autotest-fsevent' if RUBY_PLATFORM =~ /darwin/i
+  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
+
+
+end
