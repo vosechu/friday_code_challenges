@@ -1,15 +1,24 @@
 require 'bigdecimal'
-BigDecimal.limit(10) # Limit the accuracy of BigDecimal calculations
+
+# Limit the accuracy of BigDecimal calculations
+# It's worth noting that BigDecimal does have a limit on precision so
+# if you try to add two very large numbers, the last digits will always
+# be incorrect. For example: 023456789E101 + 100000000E100 == 1234567899E101
+BigDecimal.limit(10)
 
 class Sum
   def initialize(steps)
-    @total = 0
+    @totals = []
     steps.times do |i|
-      @total += sum(i)
+      @totals[i] = sum(i)
     end
+    @total = @totals.reduce(:+)
   end
 
   def sum(step)
+    if @totals[step-1]
+      return @totals[step-1] * step
+    end
     sum = BigDecimal.new("1")
     step.times do |i|
       sum *= BigDecimal.new(i+1)
