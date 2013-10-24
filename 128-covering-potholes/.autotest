@@ -1,0 +1,8 @@
+require 'autotest/growl'
+
+Autotest.add_hook :initialize do |autotest|
+  %w{.git .svn .hg .DS_Store coverage db log tmp vendor ._* .sqlite3}.each do |exception|
+    autotest.testlib = 'minitest/spec'
+    autotest.add_exception(exception)
+  end
+end
