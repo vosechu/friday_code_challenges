@@ -1,0 +1,1016 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://ch.tbe.taleo.net/CH06/ats/servlet/Rss?cws=40&org=CVENT2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Jul 2013 16:27:07 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=BA41F2739A451069481EF4CA180DE8B8.NA10_primary_jvm; Path=/CH06/ats/;
+        Secure
+      Vary:
+      - Accept-Encoding,User-Agent
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/xml;charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<?xml-stylesheet type=\"text/xsl\"
+        href=\"https://ch.tbe.taleo.net/CH06/ats/rss/taleorssfeed.xsl\" ?>\n<?xml-stylesheet
+        type=\"text/css\" href=\"https://ch.tbe.taleo.net/CH06/ats/rss/taleorssfeed.css\"
+        ?>\n<rss xmlns:taleo=\"urn:TBERss\" version=\"2.0\">\n<channel>\n<title>Cvent
+        Job Feed</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/jobSearch.jsp?org=CVENT2&amp;cws=40</link>\n<language>en_US</language>\n<pubDate>7/24/13
+        11:22 PM</pubDate>\n<ttl>60</ttl>\n<item>\n<title>Front End Web Developer</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/requisition.jsp?org=CVENT2&amp;cws=40&amp;rid=784</link>\n<description>
+        \  \t   Who We Are         \t  CrowdCompass is a fast growing and successful
+        mobile startup in SE Portland.&#160;We were recently acquired by Cvent &#8212;
+        the world&#8217;s largest event technology company &#8212; and together, we
+        make events, conferences, and tradeshows a lot more popular through the power
+        of mobile ( read Press Release here ). Our mobile app motto: keep it simple,
+        shareable, and social. You&#8217;ll find us always focused on the next big
+        thing, with our heads in our iPhones, iPads, Androids, Mobile Web, and our
+        killer CMS.        \t  CrowdCompass has built&#160;thousands of&#160;native
+        apps so far for events of all sizes and industries. In the last year, our
+        customers had over 500,000 downloads. Going forward our app solutions will
+        be even better because we&#8217;re now backed by Cvent.        \t&#160;      \t
+        \  Position Description         \t  As a Front End Web Developer you&#8217;ll
+        be working closely with our small but growing engineering team in crafting
+        the best interfaces the events industry has ever seen on the web and mobile.
+        You are an experienced web professional and fluent with the latest technologies,
+        including JavaScript. You are motivated to explore and deliver the best possible
+        solutions to our users.        \t   Position Responsibilities         \t   \t\t
+        \ You will be interpreting UI/UX requirements and mockups into functional,
+        high-performance JavaScript, HTML / CSS layouts     \t   \t\t  You&#8217;ll
+        research the latest technologies, test, implement, and report back to the
+        team on what you&#8217;ve discovered     \t   \t\t  You&#8217;ll push the
+        boundaries of what&#8217;s possible with creative solutions to hard, front-end
+        problems     \t   \t\t  You&#8217;ll create responsive layouts and mobile-specific
+        web apps that match our great user experience           \t   Candidate Requirements
+        \        \t   \t\t  Mastery of web UI development and architecture     \t
+        \  \t\t  Experience supporting senior backend developers using rails in integrating
+        front end solutions with little supervision     \t   \t\t  Extensive hands-on
+        experience with the DOM, JavaScript (and modern JS Libraries) CSS, HTML     \t
+        \  \t\t  Familiarity with HTML5, CSS2/3, and other up-and-coming web technologies
+        \    \t   \t\t  You have an opinion on Backbone.js vs Ember     \t   \t\t
+        \ You&#8217;re comfortable with languages like Ruby and Web MVC frameworks
+        \    \t   \t\t  You&#8217;ve worked on a team and are comfortable using Git.
+        In fact, you probably have a Github account you&#8217;ll want to show us.
+        \          \t   What We Offer         \t   \t\t  Good compensation&#8212;we
+        don&#8217;t want you to starve     \t   \t\t  Good benefits&#8212;we want
+        you healthy     \t   \t\t  A fun work environment&#8212;no cubes!     \t   \t\t
+        \ A team and management that will help you improve over time&#8212;like cheese
+        \     </description>\n<pubDate>Wed, 24 Jul 2013 23:22:55 GMT</pubDate>\n<taleo:reqId>784</taleo:reqId>\n<taleo:location>Portland,
+        OR</taleo:location>\n<taleo:department>Technology</taleo:department>\n<taleo:html-description>&lt;p
+        style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;strong&gt;&lt;span
+        style=&quot;font-size: 14pt&quot;&gt;Who We Are&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        12pt&quot;&gt;CrowdCompass is a fast growing and successful mobile startup
+        in SE Portland.&#160;We were recently acquired by Cvent &#8212; the world&#8217;s
+        largest event technology company &#8212; and together, we make events, conferences,
+        and tradeshows a lot more popular through the power of mobile (&lt;a href=&quot;http://www.cvent.com/en/company/cvent-acquires-crowdcompass-mobile-apps-business-events.shtml&quot;&gt;read
+        Press Release here&lt;/a&gt;). Our mobile app motto: keep it simple, shareable,
+        and social. You&#8217;ll find us always focused on the next big thing, with
+        our heads in our iPhones, iPads, Androids, Mobile Web, and our killer CMS.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        12pt&quot;&gt;CrowdCompass has built&#160;thousands of&#160;native apps so
+        far for events of all sizes and industries. In the last year, our customers
+        had over 500,000 downloads. Going forward our app solutions will be even better
+        because we&#8217;re now backed by Cvent.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&#160;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;strong&gt;&lt;span
+        style=&quot;font-size: 14pt&quot;&gt;Position Description&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        12pt&quot;&gt;As a Front End Web Developer you&#8217;ll be working closely
+        with our small but growing engineering team in crafting the best interfaces
+        the events industry has ever seen on the web and mobile. You are an experienced
+        web professional and fluent with the latest technologies, including JavaScript.
+        You are motivated to explore and deliver the best possible solutions to our
+        users.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p style=&quot;line-height:
+        normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:
+        14pt&quot;&gt;Position Responsibilities&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;You will be interpreting UI/UX requirements
+        and mockups into functional, high-performance JavaScript, HTML / CSS layouts&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;You&#8217;ll research the latest technologies,
+        test, implement, and report back to the team on what you&#8217;ve discovered&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;You&#8217;ll push the boundaries of what&#8217;s
+        possible with creative solutions to hard, front-end problems&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;You&#8217;ll create responsive layouts
+        and mobile-specific web apps that match our great user experience&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;
+        \ \t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;strong&gt;&lt;span
+        style=&quot;font-size: 14pt&quot;&gt;Candidate Requirements&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;Mastery of web UI development and architecture&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;Experience supporting senior backend
+        developers using rails in integrating front end solutions with little supervision&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;Extensive hands-on experience with the
+        DOM, JavaScript (and modern JS Libraries) CSS, HTML&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;Familiarity with HTML5, CSS2/3, and other
+        up-and-coming web technologies&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right: 0in&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;You have an opinion on Backbone.js vs
+        Ember&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-top:
+        0in; margin-bottom: 0pt; margin-right: 0in&quot;&gt;  \t\t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;You&#8217;re
+        comfortable with languages like Ruby and Web MVC frameworks&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;You&#8217;ve worked on a team and are
+        comfortable using Git. In fact, you probably have a Github account you&#8217;ll
+        want to show us.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  &lt;/ul&gt;  &lt;p
+        style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;strong&gt;&lt;span
+        style=&quot;font-size: 14pt&quot;&gt;What We Offer&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;Good compensation&#8212;we don&#8217;t
+        want you to starve&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-top:
+        0in; margin-bottom: 0pt; margin-right: 0in&quot;&gt;  \t\t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;Good
+        benefits&#8212;we want you healthy&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right: 0in&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;A fun work environment&#8212;no cubes!&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top: 0in; margin-bottom: 0pt; margin-right:
+        0in&quot;&gt;  \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;A team and management that will help
+        you improve over time&#8212;like cheese&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;</taleo:html-description>\n</item>\n<item>\n<title>Senior QA
+        Engineer</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/requisition.jsp?org=CVENT2&amp;cws=40&amp;rid=742</link>\n<description>
+        \  \t    Who We Are          \t&#160;      \t   CrowdCompass is a fast growing
+        and successful mobile startup in SE Portland.&#160;We were recently acquired
+        by Cvent &#8212; the world&#8217;s largest event technology company &#8212;
+        and together, we make events, conferences, and tradeshows a lot more popular
+        through the power of mobile (      read Press Release here   ). Our mobile
+        app motto: keep it simple, shareable, and social. You&#8217;ll find us always
+        focused on the next big thing, with our heads in our iPhones, iPads, Androids,
+        Mobile Web, and our killer CMS.         \t&#160;      \t   CrowdCompass has
+        built&#160;thousands of&#160;native apps so far for events of all sizes and
+        industries. In the last year, our customers had over 500,000 downloads. Going
+        forward our app solutions will be even better because we&#8217;re now backed
+        by Cvent.         \t&#160;      \t    Position Description:          \t&#160;
+        \     \t   We&#8217;re looking for a Senior Quality &#160;Assurance Engineer
+        to help grow and enhance our Quality Assurance &#160;Engineering team and
+        its capabilities. The Senior Quality Engineer will not only be an individual
+        contributor and will also be responsible for researching and recommending
+        potential software testing improvements as well as mentoring other Quality
+        Engineers to make the entire team better.         \t&#160;      \t    Position
+        Responsibilities          \t   \t\t  Interact closely with the entire development
+        team, making sure issues are clearly communicated and tracked     \t   \t\t
+        \ Execute and develop test cases and procedures     \t   \t\t  Learn our testing
+        frameworks and recommend improvements     \t   \t\t  Assist in the development
+        automated functional testing     \t   \t\t  Be an active contributing member
+        of a strong, agile team     \t   \t\t  Challenge us to all be better developers
+        \    \t   \t\t  Participate in ping-pong championships     \t   \t\t  Mentor
+        junior QA team members           \t    Candidate Requirements          \t
+        \  \t\t  QA background and at least 2 years of&#160;experience working with
+        a capable QA product team     \t   \t\t  Ruby, Python, or&#160;other development
+        experience     \t   \t\t  Solid understanding of software product development
+        and design     \t   \t\t  1+ years working with automation testing experience
+        \    \t   \t\t  Agile process experience is a plus     \t   \t\t  Mobile testing
+        experience is a plus           \t    What We Offer          \t   \t\t  Good
+        compensation&#8212;we don&#8217;t want you to starve     \t   \t\t  Good benefits&#8212;we
+        want you healthy     \t   \t\t  A fun work environment&#8212;no cubes!     \t
+        \  \t\t  A team and management that will help you improve over time&#8212;like
+        cheese            \t&#160; </description>\n<pubDate>Thu, 18 Jul 2013 13:38:23
+        GMT</pubDate>\n<taleo:reqId>742</taleo:reqId>\n<taleo:location>Portland, OR</taleo:location>\n<taleo:department>Technology</taleo:department>\n<taleo:html-description>&lt;p
+        style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        rgb(34,34,34)&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;Who
+        We Are&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p
+        style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&#160;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin: 0in 11.25pt 0pt 0in&quot;&gt;
+        \ \t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;color:
+        rgb(51,51,51)&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;CrowdCompass
+        is a fast growing and successful mobile startup in SE Portland.&#160;We were
+        recently acquired by Cvent &#8212; the world&#8217;s largest event technology
+        company &#8212; and together, we make events, conferences, and tradeshows
+        a lot more popular through the power of mobile (&lt;/span&gt;&lt;/span&gt;&lt;span
+        style=&quot;font-family: arial, sans-serif&quot;&gt;&lt;a href=&quot;http://www.cvent.com/en/company/cvent-acquires-crowdcompass-mobile-apps-business-events.shtml&quot;&gt;&lt;span
+        style=&quot;text-decoration: none&quot;&gt;&lt;span style=&quot;color: rgb(0,163,216)&quot;&gt;read
+        Press Release here&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;). Our mobile app motto:
+        keep it simple, shareable, and social. You&#8217;ll find us always focused
+        on the next big thing, with our heads in our iPhones, iPads, Androids, Mobile
+        Web, and our killer CMS. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p style=&quot;line-height:
+        normal; margin: 0in 11.25pt 0pt 0in&quot;&gt;  \t&#160;&lt;/p&gt;  &lt;p style=&quot;line-height:
+        normal; margin: 0in 11.25pt 0pt 0in&quot;&gt;  \t&lt;span style=&quot;font-size:
+        14px&quot;&gt;&lt;span style=&quot;color: rgb(51,51,51)&quot;&gt;&lt;span
+        style=&quot;font-family: arial, sans-serif&quot;&gt;CrowdCompass has built&#160;thousands
+        of&#160;native apps so far for events of all sizes and industries. In the
+        last year, our customers had over 500,000 downloads. Going forward our app
+        solutions will be even better because we&#8217;re now backed by Cvent.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&#160;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        rgb(34,34,34)&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;Position
+        Description:&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&#160;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(34,34,34)&quot;&gt;&lt;span
+        style=&quot;font-family: arial, sans-serif&quot;&gt;We&#8217;re looking for
+        a Senior Quality &#160;Assurance Engineer to help grow and enhance our Quality
+        Assurance &#160;Engineering team and its capabilities. The Senior Quality
+        Engineer will not only be an individual contributor and will also be responsible
+        for researching and recommending potential software testing improvements as
+        well as mentoring other Quality Engineers to make the entire team better.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&#160;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        rgb(34,34,34)&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;Position
+        Responsibilities&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt;
+        color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span
+        style=&quot;font-family: arial, sans-serif&quot;&gt;Interact closely with
+        the entire development team, making sure issues are clearly communicated and
+        tracked&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;line-height:
+        normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        14px&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;Execute
+        and develop test cases and procedures&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Learn our testing frameworks and recommend improvements&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Assist in the development automated functional
+        testing&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;line-height:
+        normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        14px&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;Be
+        an active contributing member of a strong, agile team&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Challenge us to all be better developers&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Participate in ping-pong championships&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Mentor junior QA team members&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;
+        \ \t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        rgb(34,34,34)&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;Candidate
+        Requirements&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt;
+        color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span
+        style=&quot;font-family: arial, sans-serif&quot;&gt;QA background and at least
+        2 years of&#160;experience working with a capable QA product team&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Ruby, Python, or&#160;other development experience&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Solid understanding of software product development
+        and design&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;line-height:
+        normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        14px&quot;&gt;&lt;span style=&quot;font-family: arial, sans-serif&quot;&gt;1+
+        years working with automation testing experience&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Agile process experience is a plus&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Mobile testing experience is a plus&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p style=&quot;line-height: normal; margin-bottom: 0pt;
+        color: rgb(34,34,34)&quot;&gt;  \t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span
+        style=&quot;color: rgb(34,34,34)&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;What We Offer&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt;
+        color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span
+        style=&quot;font-family: arial, sans-serif&quot;&gt;Good compensation&#8212;we
+        don&#8217;t want you to starve&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;Good benefits&#8212;we want you healthy&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;A fun work environment&#8212;no cubes!&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; margin-bottom: 0pt; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family:
+        arial, sans-serif&quot;&gt;A team and management that will help you improve
+        over time&#8212;like cheese &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  &lt;/ul&gt;
+        \ &lt;p style=&quot;line-height: normal; margin: 0in 0in 10pt; color: rgb(34,34,34)&quot;&gt;
+        \ \t&#160;&lt;/p&gt;</taleo:html-description>\n</item>\n<item>\n<title>Corporate
+        Technical Recruiter</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/requisition.jsp?org=CVENT2&amp;cws=40&amp;rid=776</link>\n<description>
+        \  \t  Position Description        \t The successful candidate will be responsible
+        for managing the full life cycle of hiring for all positions at all levels
+        in our Technology,&#160;Client Services, Sales and other departments. Detailed
+        responsibilities will include identifying qualified candidates, scheduling
+        and conducting candidate interviews, and presenting and negotiating employment
+        offers. We are looking for a bright, dynamic and high-energy professional
+        for this position. This person will also have the opportunity to learn and
+        work in other areas of human resources.        \t&#160;      \t  Position
+        Duties        \t   \t\t Work closely with hiring managers to determine hiring
+        needs and review and understand job requisitions    \t   \t\t Source and screen
+        resumes for positions primarily in Technology but also in&#160;Client Services,
+        Sales, Marketing and Finance    \t   \t\t Apply thorough knowledge of full,
+        lifecycle recruiting to fill positions quickly    \t   \t\t Serve as the first
+        point of contact for all candidates at all levels    \t   \t\t Conduct telephones
+        screens to further qualify applicants for all open positions    \t   \t\t
+        Coordinate with candidates and hiring managers to schedule interviews    \t
+        \  \t\t Ensure timely communications with all candidates and hiring managers
+        \   \t   \t\t Conduct reference checks    \t   \t\t Maintain accurate and
+        up-to-date candidate information in our recruiting database    \t   \t\t Plan
+        and coordinate college recruiting events    \t   \t\t Assist with special
+        projects          \t&#160;      \t  Candidate Requirements        \t   \t\t
+        Bachelor&#8217;s degree required     \t   \t\t 4-7 years experience in either
+        a corporate or agency recruiting role required    \t   \t\t Significant technology
+        recruiting experience is required; a combination of technology and non-technology
+        recruiting experience strongly preferred    \t   \t\t Candidates should be
+        knowledgeable in internet recruiting techniques and familiar with working
+        with resume management/applicant tracking database systems such as Taleo    \t
+        \  \t\t Strong sourcing, screening, and interviewing skills required    \t
+        \  \t\t The ability to prioritize, manage time well, and work closely with
+        the sales team to quickly address needs and adjust focus as needed    \t   \t\t
+        Outstanding oral and written communication skills    \t   \t\t Proficiency
+        with MS Office (Outlook, Word, Excel)    \t   \t\t Quick learner, with a positive
+        attitude and ability to work well within a team    \t   \t\t Ability to treat
+        sensitive/confidential information with appropriate discretion          \t&#160;
+        \     \t  What We Offer        \t   \t\t Good compensation&#8212;we don&#8217;t
+        want you to starve    \t   \t\t Good benefits&#8212;we want you healthy    \t
+        \  \t\t A fun work environment&#8212;no cubes!    \t   \t\t A team and management
+        that will help you improve over time&#8212;like cheese     </description>\n<pubDate>Mon,
+        15 Jul 2013 21:37:11 GMT</pubDate>\n<taleo:reqId>776</taleo:reqId>\n<taleo:location>Portland,
+        OR</taleo:location>\n<taleo:department>Human Resources</taleo:department>\n<taleo:html-description>&lt;p
+        style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;strong&gt;&lt;span
+        style=&quot;font-size: 14pt&quot;&gt;Position Description&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;  \t&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;The successful candidate will be responsible
+        for managing the full life cycle of hiring for all positions at all levels
+        in our Technology,&#160;Client Services, Sales and other departments. Detailed
+        responsibilities will include identifying qualified candidates, scheduling
+        and conducting candidate interviews, and presenting and negotiating employment
+        offers. We are looking for a bright, dynamic and high-energy professional
+        for this position. This person will also have the opportunity to learn and
+        work in other areas of human resources. &lt;/span&gt;&lt;/p&gt;  &lt;p style=&quot;line-height:
+        normal; margin-bottom: 0pt&quot;&gt;  \t&#160;&lt;/p&gt;  &lt;p style=&quot;line-height:
+        normal; margin-bottom: 0pt&quot;&gt;  \t&lt;strong&gt;&lt;span style=&quot;font-size:
+        14pt&quot;&gt;Position Duties&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;  &lt;ul&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Work closely with hiring managers to determine hiring needs
+        and review and understand job requisitions&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Source and screen resumes for positions primarily in Technology
+        but also in&#160;Client Services, Sales, Marketing and Finance&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Apply thorough knowledge of full, lifecycle recruiting to fill
+        positions quickly&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Serve as
+        the first point of contact for all candidates at all levels&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Conduct telephones screens to further qualify applicants for
+        all open positions&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Coordinate
+        with candidates and hiring managers to schedule interviews&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Ensure timely communications with all candidates and hiring
+        managers&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Conduct reference checks&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Maintain accurate and up-to-date candidate information in our
+        recruiting database&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Plan and
+        coordinate college recruiting events&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Assist with
+        special projects&lt;/span&gt;&lt;/li&gt;  &lt;/ul&gt;  &lt;p style=&quot;line-height:
+        normal; margin-bottom: 0pt&quot;&gt;  \t&#160;&lt;/p&gt;  &lt;p style=&quot;line-height:
+        normal; margin-bottom: 0pt&quot;&gt;  \t&lt;strong&gt;&lt;span style=&quot;font-size:
+        14pt&quot;&gt;Candidate Requirements&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span
+        style=&quot;font-size: 12pt&quot;&gt;Bachelor&#8217;s degree required &lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;4-7 years experience in either a corporate or agency recruiting
+        role required&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Significant
+        technology recruiting experience is required; a combination of technology
+        and non-technology recruiting experience strongly preferred&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Candidates should be knowledgeable in internet recruiting techniques
+        and familiar with working with resume management/applicant tracking database
+        systems such as Taleo&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Strong sourcing,
+        screening, and interviewing skills required&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;The ability to prioritize, manage time well, and work closely
+        with the sales team to quickly address needs and adjust focus as needed&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Outstanding oral and written communication skills&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Proficiency with MS Office (Outlook, Word, Excel)&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom: 0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size:
+        12pt&quot;&gt;Quick learner, with a positive attitude and ability to work
+        well within a team&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Ability to
+        treat sensitive/confidential information with appropriate discretion&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p style=&quot;line-height: normal; margin-bottom: 0pt&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;line-height: normal; margin-bottom:
+        0pt&quot;&gt;  \t&lt;strong&gt;&lt;span style=&quot;font-size: 14pt&quot;&gt;What
+        We Offer&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;  &lt;ul&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Good compensation&#8212;we
+        don&#8217;t want you to starve&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;Good benefits&#8212;we
+        want you healthy&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;A fun work
+        environment&#8212;no cubes!&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:
+        0pt&quot;&gt;  \t\t&lt;span style=&quot;font-size: 12pt&quot;&gt;A team and
+        management that will help you improve over time&#8212;like cheese&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;</taleo:html-description>\n</item>\n<item>\n<title>Software Engineer
+        (Ruby)</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/requisition.jsp?org=CVENT2&amp;cws=40&amp;rid=765</link>\n<description>
+        \  \t  Job Description:    \tDo you want to use your considerable Ruby and
+        Rails skills to put awesome software in the hands of hundreds of thousands
+        of users every month while working closely with a great team of leading Rubyists?
+        \      \t  What we do:    \tCrowdCompass is the leading mobile app providers
+        for the events, meetings, and trade shows space, and we build beautiful software
+        that helps event planners take their event experience to their users via our
+        complex RoR apps, responsive mobile web, HTML5, and native apps. &#160;   \t
+        \  \tWith over 2 million events every year in the US alone, our customers
+        are pulling on us to deliver scalable solutions that help them achieve their
+        goals before, during, and after huge (150,000 attendees) to smaller (500 attendees)
+        events.       \t  Position Responsibilities:        \t   \t\t Working closely
+        on new features with other developers, UX, product and QA in an Agile environment
+        \   \t   \t\t Taking ownership of components &#8211; from architecture to
+        development, deployment and maintenance    \t   \t\t A willingness to roll
+        up your sleeves and solve hard technical issues while shipping code regularly
+        \         \t  Candidate Requirements:        \t   \t\t Passionate Rubyists
+        that have built and deployed commercial Sinatra, Rails, or Ruby applications
+        \   \t   \t\t Strength in all the fundamentals of Rails    \t   \t\t A demonstrable
+        knowledge of Javascript and CSS    \t   \t\t Experience building RESTful APIs
+        \   \t   \t\t A solid understanding of multi-threading, database contention,
+        asynchronous operations / queuing, and object-oriented design.    \t   \t\t
+        Experience in Behavior or Test Driven Development    \t   \t\t 5-7 years experience
+        in an engineering organization    \t   \t\t You're probably an open-source
+        contributor and we would love to see your Github account    \t   \t\t Someone
+        who loves writing code and having fun while doing it          \t  What we
+        offer:    \tOur office in Portland is a collaborative, open work environment
+        where you'll work closely with active members of the Ruby.&#160; You'll enjoy
+        the easy transportation options and the fantastic food within walking distance
+        - as well as the occasional art shows and pickles made right here in the building.
+        &#160;   \t   \tWe provide stability and benefits (medical, dental, more)
+        with the passion, energy, and agility of a growing startup.    \t&#160; </description>\n<pubDate>Wed,
+        10 Jul 2013 17:53:04 GMT</pubDate>\n<taleo:reqId>765</taleo:reqId>\n<taleo:location>Portland,
+        OR</taleo:location>\n<taleo:department>Technology</taleo:department>\n<taleo:html-description>&lt;p&gt;
+        \ \t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;Job Description:&lt;/strong&gt;&lt;br
+        /&gt;  \tDo you want to use your considerable Ruby and Rails skills to put
+        awesome software in the hands of hundreds of thousands of users every month
+        while working closely with a great team of leading Rubyists?&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p&gt;  \t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;What
+        we do:&lt;/strong&gt;&lt;br /&gt;  \tCrowdCompass is the leading mobile app
+        providers for the events, meetings, and trade shows space, and we build beautiful
+        software that helps event planners take their event experience to their users
+        via our complex RoR apps, responsive mobile web, HTML5, and native apps. &#160;&lt;br
+        /&gt;  \t&lt;br /&gt;  \tWith over 2 million events every year in the US alone,
+        our customers are pulling on us to deliver scalable solutions that help them
+        achieve their goals before, during, and after huge (150,000 attendees) to
+        smaller (500 attendees) events.&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;  \t&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;Position Responsibilities:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li&gt;  \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;Working
+        closely on new features with other developers, UX, product and QA in an Agile
+        environment&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;  \t\t&lt;span style=&quot;font-size:
+        14px&quot;&gt;Taking ownership of components &#8211; from architecture to
+        development, deployment and maintenance&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;A willingness to roll
+        up your sleeves and solve hard technical issues while shipping code regularly&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p&gt;  \t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;Candidate
+        Requirements:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;  &lt;ul&gt;  \t&lt;li&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;Passionate Rubyists that
+        have built and deployed commercial Sinatra, Rails, or Ruby applications&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li&gt;  \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;Strength
+        in all the fundamentals of Rails&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;  \t\t&lt;span
+        style=&quot;font-size: 14px&quot;&gt;A demonstrable knowledge of Javascript
+        and CSS&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;  \t\t&lt;span style=&quot;font-size:
+        14px&quot;&gt;Experience building RESTful APIs&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;
+        \ \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;A solid understanding
+        of multi-threading, database contention, asynchronous operations / queuing,
+        and object-oriented design.&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;  \t\t&lt;span
+        style=&quot;font-size: 14px&quot;&gt;Experience in Behavior or Test Driven
+        Development&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;  \t\t&lt;span style=&quot;font-size:
+        14px&quot;&gt;5-7 years experience in an engineering organization&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li&gt;  \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;You're probably
+        an open-source contributor and we would love to see your Github account&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li&gt;  \t\t&lt;span style=&quot;font-size: 14px&quot;&gt;Someone
+        who loves writing code and having fun while doing it&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p&gt;  \t&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;What
+        we offer:&lt;/strong&gt;&lt;br /&gt;  \tOur office in Portland is a collaborative,
+        open work environment where you'll work closely with active members of the
+        Ruby.&#160; You'll enjoy the easy transportation options and the fantastic
+        food within walking distance - as well as the occasional art shows and pickles
+        made right here in the building. &#160;&lt;br /&gt;  \t&lt;br /&gt;  \tWe
+        provide stability and benefits (medical, dental, more) with the passion, energy,
+        and agility of a growing startup.&lt;/span&gt;&lt;br /&gt;  \t&#160;&lt;/p&gt;</taleo:html-description>\n</item>\n<item>\n<title>Systems
+        Analyst</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/requisition.jsp?org=CVENT2&amp;cws=40&amp;rid=766</link>\n<description>
+        \  \t    Who We Are          \t&#160;      \t   CrowdCompass is a fast growing
+        and successful mobile startup in SE Portland.&#160;We were recently acquired
+        by Cvent &#8212; the world&#8217;s largest event technology company &#8212;
+        and together, we make events, conferences, and tradeshows a lot more popular
+        through the power of mobile (  read Press Release here  ). Our mobile app
+        motto: keep it simple, shareable, and social. You&#8217;ll find us always
+        focused on the next big thing, with our heads in our iPhones, iPads, Androids,
+        Mobile Web, and our killer CMS. CrowdCompass has built 435 native apps so
+        far for events of all sizes and industries. In the last year, our customers
+        had over 500,000 downloads. Going forward our app solutions will be even better
+        because we&#8217;re now backed by Cvent.         \t    Position Description
+        \         \t   We are looking for&#160;a  Systems Analyst  to join our rapidly
+        growing Technology Team. Our Systems  Analysts work with project stakeholders
+        to produce requirements and design concepts for new and existing products,
+        and are then instrumental in the development, testing, implementation and
+        support of the requirements. This position plays integral role in the vision
+        and implementation of the CrowdCompass product roadmap.        \t   Position
+        Duties:         \t   \t\t   Collaborate with internal and external stakeholders
+        to gather, analyze and document functional requirements for our growing portfolio
+        of Internet-based software applications       \t   \t\t   Conduct industry
+        research to find innovate solutions for the broader market      \t   \t\t
+        \  Create requirements, business/system flow diagrams and other documentation
+        to support project deliverables      \t   \t\t   Work directly with engineering
+        and other technical teams to ensure product success and quality      \t   \t\t
+        \  Provide direction and recommendations on product design and usability       \t
+        \  \t\t   Review testing documentation and assist in ad hoc testing of enhancements
+        \      \t   \t\t   Produce training materials, and conduct internal training
+        sessions on new product features and modules       \t   \t\t   Liaison with
+        the vendors, partners and other third parties as required       \t   \t\t
+        \  Determine quality standards, monitor results, and implement quality improvements
+        \      \t   \t\t   Operate in a results-oriented manner to achieve projects
+        goals, with a standard of excellence             \t    Candidate Requirements:
+        \         \t   \t\t  BS in Computer Science, Information Systems or equivalent
+        major with strong academic performance     \t   \t\t  2+ years of relevant
+        experience gathering requirements, market analysis, business rules, and documentation
+        of mission critical business applications     \t   \t\t  Excellent problem
+        solving and analytical skills     \t   \t\t  Outstanding oral and written
+        communication skills, and the ability to work well with various stakeholders
+        at all levels within and outside the company     \t   \t\t  Solid understanding
+        of Relational Databases, the Software Development Life Cycle and the design
+        of modern, web based User Interfaces     \t   \t\t  Must be flexible and willing
+        to undertake a wide variety of challenging tasks     \t   \t\t  Ability to
+        provide and receive constructive criticism while maintaining positive relationship
+        with other team members           \t    What We Offer          \t   \t\t  Good
+        compensation&#8212;we don&#8217;t want you to starve     \t   \t\t  Good benefits&#8212;we
+        want you healthy     \t   \t\t  A fun work environment&#8212;no cubes!     \t
+        \  \t\t   A team and management that will help you improve over time&#8212;like
+        cheese        </description>\n<pubDate>Wed, 03 Jul 2013 20:54:40 GMT</pubDate>\n<taleo:reqId>766</taleo:reqId>\n<taleo:location>Portland,
+        OR</taleo:location>\n<taleo:department>Technology</taleo:department>\n<taleo:html-description>&lt;p
+        style=&quot;margin-top:0in;margin-right:11.25pt;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        rgb(51, 51, 51);&quot;&gt;Who We Are&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-top:0in;margin-right:11.25pt;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;margin-top:0in;margin-right:11.25pt;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(51,
+        51, 51);&quot;&gt;CrowdCompass is a fast growing and successful mobile startup
+        in SE Portland.&#160;We were recently acquired by Cvent &#8212; the world&#8217;s
+        largest event technology company &#8212; and together, we make events, conferences,
+        and tradeshows a lot more popular through the power of mobile (&lt;a href=&quot;http://www.cvent.com/en/company/cvent-acquires-crowdcompass-mobile-apps-business-events.shtml&quot;&gt;&lt;span
+        style=&quot;color: blue;&quot;&gt;read Press Release here&lt;/span&gt;&lt;/a&gt;).
+        Our mobile app motto: keep it simple, shareable, and social. You&#8217;ll
+        find us always focused on the next big thing, with our heads in our iPhones,
+        iPads, Androids, Mobile Web, and our killer CMS. CrowdCompass has built 435
+        native apps so far for events of all sizes and industries. In the last year,
+        our customers had over 500,000 downloads. Going forward our app solutions
+        will be even better because we&#8217;re now backed by Cvent.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;text-align:justify;line-height:normal;&quot;&gt;  \t&lt;span
+        style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-size:
+        14px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(34, 34, 34);&quot;&gt;Position
+        Description&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;vertical-align:baseline;&quot;&gt;  \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;border: 1pt none
+        windowtext; padding: 0in;&quot;&gt;We are looking for&#160;a &lt;strong&gt;Systems
+        Analyst&lt;/strong&gt; to join our rapidly growing Technology Team. Our Systems
+        &lt;/span&gt;Analysts work with project stakeholders to produce requirements
+        and design concepts for new and existing products, and are then instrumental
+        in the development, testing, implementation and support of the requirements.
+        This position plays integral role in the vision and implementation of the
+        CrowdCompass product roadmap.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p style=&quot;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(34,
+        34, 34);&quot;&gt;Position Duties:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Collaborate
+        with internal and external stakeholders to gather, analyze and document functional
+        requirements for our growing portfolio of Internet-based software applications
+        &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Conduct
+        industry research to find innovate solutions for the broader market&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Create
+        requirements, business/system flow diagrams and other documentation to support
+        project deliverables&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Work
+        directly with engineering and other technical teams to ensure product success
+        and quality&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Provide
+        direction and recommendations on product design and usability &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Review
+        testing documentation and assist in ad hoc testing of enhancements &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Produce
+        training materials, and conduct internal training sessions on new product
+        features and modules &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Liaison
+        with the vendors, partners and other third parties as required &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li&gt;  \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Determine
+        quality standards, monitor results, and implement quality improvements &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-top:0in;margin-right:0in;margin-bottom:.15pt;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Operate
+        in a results-oriented manner to achieve projects goals, with a standard of
+        excellence &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  &lt;/ul&gt;
+        \ &lt;p style=&quot;text-align:justify;line-height:normal;&quot;&gt;  \t&lt;span
+        style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-size:
+        14px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(34, 34, 34);&quot;&gt;Candidate
+        Requirements:&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;margin-bottom:.15pt;text-autospace:none;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;BS in Computer Science, Information
+        Systems or equivalent major with strong academic performance&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:.15pt;text-autospace:none;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;2+ years of relevant experience gathering
+        requirements, market analysis, business rules, and documentation of mission
+        critical business applications&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-bottom:.15pt;text-autospace:none;&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-size:
+        14px;&quot;&gt;Excellent problem solving and analytical skills&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:.15pt;text-autospace:none;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Outstanding oral and written communication
+        skills, and the ability to work well with various stakeholders at all levels
+        within and outside the company&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;margin-bottom:.15pt;text-autospace:none;&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-size:
+        14px;&quot;&gt;Solid understanding of Relational Databases, the Software Development
+        Life Cycle and the design of modern, web based User Interfaces&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:.15pt;text-autospace:none;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Must be flexible and willing to undertake
+        a wide variety of challenging tasks&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Ability to provide and receive constructive
+        criticism while maintaining positive relationship with other team members&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p style=&quot;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        rgb(34, 34, 34);&quot;&gt;What We Offer&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;color:&#35;222222;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Good compensation&#8212;we don&#8217;t
+        want you to starve&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;color:&#35;222222;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Good benefits&#8212;we want you healthy&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;color:&#35;222222;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;A fun work environment&#8212;no cubes!&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;color:&#35;222222;text-align:justify;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;A team and management that will help
+        you improve over time&#8212;like cheese &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;</taleo:html-description>\n</item>\n<item>\n<title>iOS Developer</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/requisition.jsp?org=CVENT2&amp;cws=40&amp;rid=657</link>\n<description>
+        \  \t    Who We Are          \t   CrowdCompass is a fast growing and successful
+        mobile startup in SE Portland.&#160;We were recently acquired by Cvent &#8212;
+        the world&#8217;s largest event technology company &#8212; and together, we
+        make events, conferences, and tradeshows a lot more popular through the power
+        of mobile ( read Press Release here ). Our mobile app motto: keep it simple,
+        shareable, and social. You&#8217;ll find us always focused on the next big
+        thing, with our heads in our iPhones, iPads, Androids, Mobile Web, and our
+        killer CMS.       CrowdCompass has built 435 native apps so far for events
+        of all sizes and industries. In the last year, our customers had over 500,000
+        downloads. Going forward our app solutions will be even better because we&#8217;re
+        now backed by Cvent.         \t&#160;      \t    Position Description          \t&#160;
+        \     \t   As an iOS Developer you&#8217;ll be working closely with our small
+        but growing engineering team in crafting the best mobile apps the events industry
+        has ever seen. This is an experienced position that requires fluency with
+        the latest ObjC language extensions and Cocoa frameworks. You should be motivated
+        to explore and deliver the best possible solutions to our users.&#160;          \t
+        \   Position Responsibilities          \t   \t\t  Work on all aspects of iOS
+        projects with an emphasis on intuitive, custom UI controls and interfaces
+        that provide a great user experience     \t   \t\t  You will be interpreting
+        UI/UX requirements and mockups into functional, high-performance iPhone and
+        iPad apps     \t   \t\t  Research the latest technologies, test, implement,
+        and report back to the team on what you&#8217;ve discovered     \t   \t\t
+        \ Push the boundaries of what&#8217;s possible with creative solutions to
+        hard, mobile-centric problems like synchronization, asynchronous APIs, and
+        leveraging offline device capabilities           \t    Candidate Requirements:
+        \         \t   \t\t  Mastery of Cocoa design patterns and the iOS/Xcode developer
+        toolchain     \t   \t\t  Experience collaborating with senior backend and
+        senior mobile developers in an agile environment with little supervision     \t
+        \  \t\t  Extensive hands-on experience creating custom UI controls, consuming
+        RESTful APIs, designing protocols, implementing delegate interfaces, animations,
+        and performance optimization     \t   \t\t  Instruments is your long-time
+        BFF     \t   \t\t  Familiarity with TDD, Sentest, and OCMock     \t   \t\t
+        \ You see all of the potential of mobile, and you know how to get the most
+        out of the iOS platform     \t   \t\t  You&#8217;ve worked on a team and are
+        comfortable using Git.&#160; In fact, you probably have a Github account you&#8217;ll
+        want to show us.           \t    What We Offer          \t   \t\t  Good compensation&#8212;we
+        don&#8217;t want you to starve     \t   \t\t  Good benefits&#8212;we want
+        you healthy     \t   \t\t  A fun work environment&#8212;no cubes!     \t   \t\t
+        \ A team and management that will help you improve over time&#8212;like cheese&#160;
+        \     </description>\n<pubDate>Thu, 20 Jun 2013 18:22:47 GMT</pubDate>\n<taleo:reqId>657</taleo:reqId>\n<taleo:location>Portland,
+        OR</taleo:location>\n<taleo:department>Technology</taleo:department>\n<taleo:html-description>&lt;p
+        style=&quot;line-height: normal&quot;&gt;  \t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span
+        style=&quot;color: &#35;222222&quot;&gt;Who We Are&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin: 0in 11.25pt 0pt 0in&quot;&gt;
+        \ \t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;color: &#35;333333&quot;&gt;CrowdCompass
+        is a fast growing and successful mobile startup in SE Portland.&#160;We were
+        recently acquired by Cvent &#8212; the world&#8217;s largest event technology
+        company &#8212; and together, we make events, conferences, and tradeshows
+        a lot more popular through the power of mobile (&lt;a href=&quot;http://www.cvent.com/en/company/cvent-acquires-crowdcompass-mobile-apps-business-events.shtml&quot;&gt;read
+        Press Release here&lt;/a&gt;). Our mobile app motto: keep it simple, shareable,
+        and social. You&#8217;ll find us always focused on the next big thing, with
+        our heads in our iPhones, iPads, Androids, Mobile Web, and our killer CMS.
+        &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: arial,
+        helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span
+        style=&quot;color: &#35;333333&quot;&gt;CrowdCompass has built 435 native
+        apps so far for events of all sizes and industries. In the last year, our
+        customers had over 500,000 downloads. Going forward our app solutions will
+        be even better because we&#8217;re now backed by Cvent.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin: 0in 11.25pt 0pt 0in&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;line-height: normal; margin: 0in 11.25pt
+        0pt 0in&quot;&gt;  \t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        &#35;222222&quot;&gt;Position Description&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal; margin: 0in 11.25pt 0pt 0in&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;line-height: normal&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;&lt;span style=&quot;color: &#35;222222&quot;&gt;As an iOS Developer
+        you&#8217;ll be working closely with our small but growing engineering team
+        in crafting the best mobile apps the events industry has ever seen. This is
+        an experienced position that requires fluency with the latest ObjC language
+        extensions and Cocoa frameworks. You should be motivated to explore and deliver
+        the best possible solutions to our users.&#160; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;line-height: normal&quot;&gt;  \t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span
+        style=&quot;color: &#35;222222&quot;&gt;Position Responsibilities&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 14px&quot;&gt;Work on all aspects of iOS projects with
+        an emphasis on intuitive, custom UI controls and interfaces that provide a
+        great user experience&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;line-height:
+        normal; color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;You
+        will be interpreting UI/UX requirements and mockups into functional, high-performance
+        iPhone and iPad apps&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;line-height:
+        normal; color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Research
+        the latest technologies, test, implement, and report back to the team on what
+        you&#8217;ve discovered&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;line-height:
+        normal; color: &#35;222222&quot;&gt;  \t\t&lt;span style=&quot;font-family:
+        arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Push
+        the boundaries of what&#8217;s possible with creative solutions to hard, mobile-centric
+        problems like synchronization, asynchronous APIs, and leveraging offline device
+        capabilities&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  &lt;/ul&gt;  &lt;p style=&quot;line-height:
+        normal&quot;&gt;  \t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 14px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color:
+        &#35;222222&quot;&gt;Candidate Requirements:&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;ul&gt;  \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span
+        style=&quot;font-size: 14px&quot;&gt;Mastery of Cocoa design patterns and
+        the iOS/Xcode developer toolchain&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;Experience collaborating with senior backend and senior mobile
+        developers in an agile environment with little supervision&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;Extensive hands-on experience creating custom UI controls, consuming
+        RESTful APIs, designing protocols, implementing delegate interfaces, animations,
+        and performance optimization&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li
+        style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;Instruments is your long-time BFF&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;Familiarity with TDD, Sentest, and OCMock&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;You see all of the potential of mobile, and you know how to
+        get the most out of the iOS platform&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;You&#8217;ve worked on a team and are comfortable using Git.&#160;
+        In fact, you probably have a Github account you&#8217;ll want to show us.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p style=&quot;line-height: normal&quot;&gt;  \t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color: &#35;222222&quot;&gt;What
+        We Offer&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;  &lt;ul&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;Good compensation&#8212;we don&#8217;t want you to starve&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;Good benefits&#8212;we want you healthy&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;A fun work environment&#8212;no cubes!&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;line-height: normal; color: &#35;222222&quot;&gt;  \t\t&lt;span
+        style=&quot;font-family: arial, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size:
+        14px&quot;&gt;A team and management that will help you improve over time&#8212;like
+        cheese&#160;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  &lt;/ul&gt;</taleo:html-description>\n</item>\n<item>\n<title>Android
+        Developer</title>\n<link>http://ch.tbe.taleo.net/CH06/ats/careers/requisition.jsp?org=CVENT2&amp;cws=40&amp;rid=613</link>\n<description>
+        \  \t   Who We Are         \t&#160;      \t  CrowdCompass is a fast growing
+        and successful mobile startup in SE Portland.&#160;We were recently acquired
+        by Cvent &#8212; the world&#8217;s largest event technology company &#8212;
+        and together, we make events, conferences, and tradeshows a lot more popular
+        through the power of mobile (  read Press Release here  ). Our mobile app
+        motto: keep it simple, shareable, and social. You&#8217;ll find us always
+        focused on the next big thing, with our heads in our iPhones, iPads, Androids,
+        Mobile Web, and our killer CMS.        \t  CrowdCompass has built 435 native
+        apps so far for events of all sizes and industries. In the last year, our
+        customers had over 500,000 downloads. Going forward our app solutions will
+        be even better because we&#8217;re now backed by Cvent.        \t&#160;      \t
+        \  Position Description         \t&#160;      \t  As an Android Developer
+        you&#8217;ll be working closely with our small but growing engineering team
+        in crafting the best mobile apps the events industry has ever seen. This is
+        an experienced position that requires fluency with the latest Java capabilities
+        and improvements in the Android SDK. You are motivated to explore and deliver
+        the best possible solutions to our users.&#160;         \t&#160;      \t   Position
+        Responsibilities         \t&#160;      \t   \t\t  You will be interpreting
+        UI/UX requirements and mockups into functional, high-performance Android phone
+        and tablet apps     \t   \t\t  Research the latest technologies, test, implement,
+        and report back to the team on what you&#8217;ve discovered     \t   \t\t
+        \ Push the boundaries of what&#8217;s possible with creative solutions to
+        hard, mobile-centric problems like synchronization, asynchronous APIs, and
+        leveraging offline device capabilities     \t   \t\t  Create intuitive, custom
+        UI controls and interfaces that match our great user experience           \t
+        \  Candidate Requirements:         \t&#160;      \t   \t\t  Mastery of Java,
+        design patterns, and the Android/Eclipse developer toolchain     \t   \t\t
+        \ Experience collaborating with senior backend and senior mobile developers
+        in an agile environment with little supervision     \t   \t\t  Extensive hands-on
+        experience creating custom UI controls, consuming RESTful APIs, designing
+        protocols, implementing delegate interfaces, animations, and performance optimization
+        \    \t   \t\t  Understanding of the nuances of fragments and Android XML
+        layouts, and how to create adaptive interfaces that work for both phones and
+        tablets     \t   \t\t  Familiarity with TDD     \t   \t\t  Familiarity with
+        Robotium and Roboelectric (automated UI testing and mocking) a plus     \t
+        \  \t\t  You see all of the potential of mobile, and you know how to get the
+        most out of the Android platform     \t   \t\t  You&#8217;ve worked on a team
+        and are comfortable using Git.&#160; In fact, you probably have a Github account
+        you&#8217;ll want to show us.           \t   What We Offer         \t&#160;
+        \     \t   \t\t  Good compensation&#8212;we don&#8217;t want you to starve
+        \    \t   \t\t  Good benefits&#8212;we want you healthy     \t   \t\t  A fun
+        work environment&#8212;no cubes!     \t   \t\t  A team and management that
+        will help you improve over time&#8212;like cheese      </description>\n<pubDate>Thu,
+        20 Jun 2013 15:09:13 GMT</pubDate>\n<taleo:reqId>613</taleo:reqId>\n<taleo:location>Portland,
+        OR</taleo:location>\n<taleo:department>Technology</taleo:department>\n<taleo:html-description>&lt;p
+        style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;CrowdCompass is a fast growing and successful
+        mobile startup in SE Portland.&#160;We were recently acquired by Cvent &#8212;
+        the world&#8217;s largest event technology company &#8212; and together, we
+        make events, conferences, and tradeshows a lot more popular through the power
+        of mobile (&lt;a href=&quot;http://www.cvent.com/en/company/cvent-acquires-crowdcompass-mobile-apps-business-events.shtml&quot;&gt;&lt;span
+        style=&quot;color: blue;&quot;&gt;read Press Release here&lt;/span&gt;&lt;/a&gt;).
+        Our mobile app motto: keep it simple, shareable, and social. You&#8217;ll
+        find us always focused on the next big thing, with our heads in our iPhones,
+        iPads, Androids, Mobile Web, and our killer CMS.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;CrowdCompass has built 435 native apps
+        so far for events of all sizes and industries. In the last year, our customers
+        had over 500,000 downloads. Going forward our app solutions will be even better
+        because we&#8217;re now backed by Cvent.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;Position Description&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;As an Android Developer you&#8217;ll
+        be working closely with our small but growing engineering team in crafting
+        the best mobile apps the events industry has ever seen. This is an experienced
+        position that requires fluency with the latest Java capabilities and improvements
+        in the Android SDK. You are motivated to explore and deliver the best possible
+        solutions to our users.&#160; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p
+        style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;Position Responsibilities&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;ul&gt;  \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;You will be interpreting UI/UX requirements
+        and mockups into functional, high-performance Android phone and tablet apps&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Research the latest technologies, test,
+        implement, and report back to the team on what you&#8217;ve discovered&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Push the boundaries of what&#8217;s
+        possible with creative solutions to hard, mobile-centric problems like synchronization,
+        asynchronous APIs, and leveraging offline device capabilities&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Create intuitive, custom UI controls
+        and interfaces that match our great user experience&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;  &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;Candidate Requirements:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;ul&gt;  \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Mastery of Java, design patterns, and
+        the Android/Eclipse developer toolchain&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Experience collaborating with senior
+        backend and senior mobile developers in an agile environment with little supervision&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Extensive hands-on experience creating
+        custom UI controls, consuming RESTful APIs, designing protocols, implementing
+        delegate interfaces, animations, and performance optimization&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Understanding of the nuances of fragments
+        and Android XML layouts, and how to create adaptive interfaces that work for
+        both phones and tablets&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Familiarity with TDD&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Familiarity with Robotium and Roboelectric
+        (automated UI testing and mocking) a plus&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;You see all of the potential of mobile,
+        and you know how to get the most out of the Android platform&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;You&#8217;ve worked on a team and are
+        comfortable using Git.&#160; In fact, you probably have a Github account you&#8217;ll
+        want to show us.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  &lt;/ul&gt;  &lt;p
+        style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;What We Offer&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        \ &lt;p style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t&#160;&lt;/p&gt;  &lt;ul&gt;  \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Good compensation&#8212;we don&#8217;t
+        want you to starve&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;  \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;Good benefits&#8212;we want you healthy&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;A fun work environment&#8212;no cubes!&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ \t&lt;li style=&quot;margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;&quot;&gt;
+        \ \t\t&lt;span style=&quot;font-family:arial,helvetica,sans-serif;&quot;&gt;&lt;span
+        style=&quot;font-size: 14px;&quot;&gt;A team and management that will help
+        you improve over time&#8212;like cheese&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        \ &lt;/ul&gt;</taleo:html-description>\n</item>\n</channel>\n</rss>\n"
+    http_version: 
+  recorded_at: Fri, 26 Jul 2013 16:27:07 GMT
+recorded_with: VCR 2.5.0
