@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+ruby "2.0.0"
+
+gem 'ffi-aspell'
+
+group :development do
+  gem 'rspec'
+  gem 'autotest-standalone'
+  gem 'autotest-growl'
+end
